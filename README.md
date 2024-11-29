@@ -1,6 +1,6 @@
 # Animalec
 
-## Novas Funcionalidades: Patrocinadores e Especialistas
+## Novas Funcionalidades no Frontend: Patrocinadores e Especialistas
 Este projeto agora inclui funcionalidades para gerenciar Patrocinadores e Especialistas. Essas novas adições permite aos utilziadores adicionarem, editar, remover e visualizar informações sobre patrocinadores e especialistas de forma eficiente.
 
 # CRUD
