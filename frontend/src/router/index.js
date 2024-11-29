@@ -148,7 +148,7 @@ const routes = [
   },
 
   // Novos endpoints relativos à tarefa 2 (MiniProj2)
-
+  // Sponsor
   {
     path: "/admin/sponsors",
     name: "listSponsors",
@@ -164,6 +164,24 @@ const routes = [
     name: "editSponsor",
     component: () => import("@/views/sponsors/EditSponsor.vue")
   },
+
+  // Specialists
+
+  {
+    path: "/admin/specialists",
+    name: "listSpecialists",
+    component: () => import("@/views/specialists/ListSpecialists.vue")
+  },
+  {
+    path: "/admin/specialists/add",
+    name: "addSpecialist",
+    component: () => import("@/views/specialists/AddSpecialist.vue")
+  },
+  {
+    path: "/admin/specialists/edit",
+    name: "editSpecialist",
+    component: () => import("@/views/specialists/EditSpecialist.vue")
+  }
   
   
 ];
