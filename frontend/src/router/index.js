@@ -145,7 +145,27 @@ const routes = [
   {
     path: "*",
     component: () => import("@/views/Error404.vue")
-  }
+  },
+
+  // Novos endpoints relativos à tarefa 2 (MiniProj2)
+
+  {
+    path: "/admin/sponsors",
+    name: "listSponsors",
+    component: () => import("@/views/sponsors/ListSponsors.vue")
+  },
+  {
+    path: "/admin/sponsors/add",
+    name: "addSponsor",
+    component: () => import("@/views/sponsors/AddSponsor.vue")
+  },
+  {
+    path: "/admin/sponsors/edit",
+    name: "editSponsor",
+    component: () => import("@/views/sponsors/EditSponsor.vue")
+  },
+  
+  
 ];
 
 const router = new VueRouter({
