@@ -22,6 +22,12 @@
           <b-nav-item :to="{ name: 'quizzes' }" :disabled="!isUserLoggedIn"
             >QUIZZES</b-nav-item
           >
+          <b-nav-item :to="{ name: 'listSpecialists' }" v-if="isUserLoggedIn"
+          >ESPECIALISTAS</b-nav-item
+          >
+          <b-nav-item :to="{ name: 'listSponsors' }" v-if="isUserLoggedIn"
+            >PATROCINADORES</b-nav-item
+          >
           <b-nav-item to="#contacts">CONTACTOS</b-nav-item>
           <div v-if="isUserLoggedIn">
             <div v-if="getUserType === 'user'">
